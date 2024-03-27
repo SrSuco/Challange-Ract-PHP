@@ -23,7 +23,7 @@ function requestMethodManager(){
             $productName = htmlspecialchars($_POST['ProductName']);
             $amount = $_POST['Amount'];
             $unitPrice = $_POST['UnitPrice'];
-            $categoryName = htmlspecialchars($_POST['categorySelect']);
+            $categoryName = $_POST['categorySelect'];
             return insert($myPDO, $productName, $amount, $unitPrice, $categoryName);
             break;
         case 'DELETEELEMENT':
