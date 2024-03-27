@@ -1,0 +1,62 @@
+.HistoryTable {
+    display: flex;
+}
+
+.HistoryTable table{
+  table-layout: fixed;
+  flex: 1;
+}
+.HistoryTable table,
+th,
+td {
+    border-collapse: collapse;
+    overflow: auto;
+}
+.HistoryTable th {
+    border-top: none;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    text-align: center;
+}
+.HistoryTable td {
+    border-top: 1px solid rgb(117, 117, 117);
+    text-align: center;
+}
+
+.HistoryTable th:nth-child(1), td:nth-child(1){
+    border-left: 1px solid  rgb(117, 117, 117);
+    border-right: 1px solid  rgb(117, 117, 117);
+    max-width: 15rem;
+    min-width: 5rem;
+    width: 10rem;
+}
+.HistoryTable th:nth-child(2), td:nth-child(2) {
+    border-left: 1px solid rgb(117, 117, 117);
+    max-width: 12rem;
+    min-width: 5rem;
+    width: 10rem;
+}
+.HistoryTable th:nth-child(3), td:nth-child(3) {
+    border-left: 1px solid rgb(117, 117, 117);
+    max-width: 12rem;
+    min-width: 5rem;
+    width: 10rem;
+}
+
+.HistoryTable th:nth-child(4), td:nth-child(4) {
+    max-width: 15rem;
+    min-width: 5rem;
+    width: 10rem;
+}
+
+.HistoryTable button{
+    background: none;
+    border: none;
+}
+
+.HistoryTable button:hover {
+    transform: scale(1.1);
+}
+
+.HistoryTable button:active {
+    transform: scale(1.2);
+}

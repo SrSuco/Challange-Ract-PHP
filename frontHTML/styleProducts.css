@@ -1,0 +1,149 @@
+/*Products Styling*/
+.bodyContainer {
+  display: flex;
+  gap: 1px;
+}
+.leftpage1 {
+  flex: 1;
+}
+.rightpage1 {
+  flex: 1;
+}
+
+.inputBasic,
+.addCatButton,
+.amtePrc,
+.SelectCategory,
+.AddButton {
+  display: flex;
+  margin-top: 2%;
+  gap: 4%;
+  justify-content: space-evenly;
+}
+.inputBasic input {
+  width: 90%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(216, 216, 216);
+}
+.inputBasic :focus {
+  width: 90%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(216, 216, 216);
+}
+.amtePrc input {
+  width: 40%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(216, 216, 216);
+}
+.amtePrc :focus {
+  width: 40%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(216, 216, 216);
+}
+
+.SelectCategory select {
+  width: 93.2%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(216, 216, 216);
+}
+
+.SelectCategory :focus {
+  width: 93.2%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(216, 216, 216);
+}
+
+.AddButtonProd {
+  display: flex;
+  justify-content: center;
+}
+.AddButtonProd button {
+  width: 93.8%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(172, 139, 226);
+  border: none;
+}
+.AddButtonProd button:hover {
+  background-color: rgb(153, 110, 223);
+}
+.AddButtonProd button:active {
+  background-color: rgb(140, 90, 221);
+}
+
+.TableProducts table,
+th,
+td {
+  border-left: none;
+  border-collapse: collapse;
+  text-align: start;
+}
+.TableProducts th,
+td {
+  height: 10%;
+  font-family: sans-serif;
+}
+.TableProducts th {
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+.TableProducts td {
+  border-top: 1px solid rgb(218, 218, 218);
+  color: rgb(122, 122, 122);
+}
+.TableProducts #codProd {
+  width: 10%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.TableProducts #prdProd {
+  width: 45%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.TableProducts #amtProd {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.TableProducts #untProd {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.TableProducts #catProd {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.TableProducts #delProd {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.TableProducts button {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(228, 0, 0);
+  border-radius: 5px;
+}
+.TableProducts input {
+  border: none;
+  text-align: center;
+}
+.TableProducts button:hover {
+  color: rgb(255, 0, 0);
+}
+.TableProducts button:active {
+  color: rgb(177, 0, 0);
+}

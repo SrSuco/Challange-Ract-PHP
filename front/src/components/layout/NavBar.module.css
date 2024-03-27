@@ -1,0 +1,28 @@
+/*Main Styling*/
+.Header {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to bottom right,#8080da, #5151a3);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 10vh;
+}
+.Header h1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+}
+.list {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.links {
+  display: flex;
+}
+
+.links a{
+  margin: 1.5rem;
+}

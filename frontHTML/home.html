@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="styleHome.css">
+		<script src="scripts/home.js" defer></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PDV</title>
+	</head>
+	<body>
+		<div class="Header">
+			<div class="Navigation"></div>
+			<h1><a href="home.html" id="Home">Suite Store</a></h1>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href=products.html>Products</a></li>
+				<li><a href=categories.html>Categories</a></li>
+				<li><a href=history.html>History</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="bodyContainer">
+			<div class="leftpageHome">
+				<form id="selectionForm">
+					<div class="SelectProduct">
+						<select id="productSelect" class="formField" onchange="itemSelect()" required>
+							<option value="" disabled selected>Product:</option>
+						</select>
+					</div>
+					<div class="Quantities">
+						<div class="Amount">
+							<input type="number" id="Amount" class="formField" name="Amount" placeholder="Amount">
+						</div>
+						<div class="QuantityInput">
+							<input id="TaxValue" class="formField" name="TaxValue" placeholder="Tax" disabled>
+						</div>
+						<div class="QuantityInput2">
+							<input id="UnitPrice" class="formField" name="UnitPrice" placeholder="Unit Price" disabled>
+						</div>
+					</div>
+					<br>
+					<div class="AddButton">
+						<button type="submit" id="addProduct">Add Product</button>
+					</div>
+				</form>
+			</div>
+			<div class="rightpageHome">
+				<div class="Table">
+					<table id="tableBuy">
+						<thead>
+							<tr>
+								<th id="prod">Product</th>
+								<th id="prc">Unit Price</th>
+								<th id="qnt">Amount</th>
+								<th id="tot">Total</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div class="finishInfo">
+					<div class="TotalwTaxes">
+						<p><b>Tax:</b><input type="text" id="totalTax" disabled></p>
+						<p><b>Total: </b><input type="text" id="totalPrice" disabled></p>
+					</div>
+					<div class="endbuttons">
+						<div class="buttoncancel">
+							<button type="button" id="cancelButton">Cancel</button> 
+						</div>
+						<div class="buttonfinish">
+							<button type="button" id="finishButton">Finish</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

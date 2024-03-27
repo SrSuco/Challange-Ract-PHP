@@ -1,0 +1,219 @@
+/*Home Styling*/
+.bodyContainer {
+  display: flex;
+  gap: 1px;
+}
+
+.leftpageHome {
+  flex: 1;
+}
+
+.rightpageHome {
+  flex: 1;
+}
+
+.SelectProduct,
+.Quantities,
+.Amount,
+.QuantityInput,
+.QuantityInput2,
+.AddButton {
+  display: flex;
+  margin-top: 2%;
+  gap: 4%;
+  justify-content: space-evenly;
+}
+
+.SelectProduct select {
+  border-color: rgb(216, 216, 216);
+  background-color: rgb(236, 236, 236);
+  width: 98%;
+  border-radius: 5px;
+  padding: 1.6% 1.5%;
+}
+
+.SelectProduct select {
+  -webkit-appearance: none;
+}
+
+.SelectProduct select:focus {
+  background-color: white;
+}
+
+.Amount {
+  flex: 1;
+}
+
+.Amount input {
+  width: 80%;
+  padding: 4.8% 5%;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(216, 216, 216);
+}
+
+.Amount input:focus {
+  border-color: rgb(216, 216, 216);
+  background-color: white;
+}
+
+.QuantityInput {
+  flex: 1;
+}
+.QuantityInput input {
+  width: 80%;
+  padding: 4.8% 5%;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(216, 216, 216);
+}
+
+.QuantityInput2 {
+  flex: 1;
+}
+
+.QuantityInput2 input {
+  width: 80%;
+  padding: 4.8% 5%;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(216, 216, 216);
+}
+
+.AddButton {
+  flex: 1;
+}
+
+.AddButton button {
+  width: 98%;
+  padding: 1.8% 1.5%;
+  border-radius: 5px;
+  background-color: rgb(172, 139, 226);
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.AddButton button:hover {
+  background-color: rgb(153, 110, 223);
+}
+
+.AddButton button:active {
+  background-color: rgb(140, 90, 221);
+}
+
+.Table table,
+th,
+td {
+  border-left: none;
+  border-top: 1px solid rgb(218, 218, 218);
+  border-collapse: collapse;
+  text-align: start;
+}
+
+.Table th,
+td {
+  height: 10%;
+  font-family: sans-serif;
+}
+
+.Table td {
+  color: rgb(122, 122, 122);
+}
+
+.Table #prod {
+  width: 70%;
+  border-right: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.Table #prc {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.Table #qnt {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.Table #tot {
+  width: 15%;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.finishInfo {
+  width: 50%;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+}
+
+.TotalwTaxes {
+  display: flex;
+  gap: 2%;
+}
+
+.TotalwTaxes p {
+  flex: 1;
+  vertical-align: middle;
+}
+
+.TotalwTaxes input {
+  flex: 1;
+  vertical-align: middle;
+  border: none;
+}
+.endbuttons {
+  display: flex;
+  gap: 2%;
+}
+
+.buttoncancel {
+  flex: 1;
+  vertical-align: top;
+}
+
+.buttoncancel button {
+  background-color: rgb(177, 177, 177);
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5% 20%;
+}
+
+.buttoncancel button:hover {
+  background-color: rgb(153, 153, 153);
+}
+
+.buttoncancel button:active {
+  background-color: rgb(95, 95, 95);
+}
+
+.buttonfinish {
+  flex: 1;
+  vertical-align: top;
+}
+.buttonfinish button {
+  background-color: rgb(172, 139, 226);
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5% 20%;
+}
+
+.buttonfinish button:hover {
+  background-color: rgb(153, 110, 223);
+}
+
+.buttonfinish button:active {
+  background-color: rgb(140, 90, 221);
+}

@@ -1,0 +1,52 @@
+/*Main Styling*/
+body {
+  margin: 0px;
+}
+.Header {
+  display: flex;
+  background-color: rgb(153, 110, 223);
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+.Header h1 {
+  margin-left: 5px;
+}
+.Header ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.Header li {
+  margin-left: 10%;
+}
+.Header a {
+  text-decoration: none;
+  font-size: 140%;
+  font-weight: bold;
+  color: rgb(26, 25, 25);
+}
+.Header a:hover {
+  font-size: 150%;
+  color: black;
+}
+
+.Header a#Home {
+  text-decoration: none;
+  font-size: 140%;
+  font-weight: bolder;
+  color: rgb(26, 25, 25);
+}
+
+.leftpage {
+  display: inline-block;
+  width: 50%;
+  height: 820px;
+  border-right: 1.5px solid rgb(218, 218, 218);
+  vertical-align: top;
+  white-space: normal;
+}
+.rightpage {
+  display: inline-block;
+  width: 49%;
+  height: 800px;
+}

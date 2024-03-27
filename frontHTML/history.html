@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="styleHistory.css">
+		<script src="scripts/history.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>History</title>
+    </head>
+    <body>
+        <div class="Header">
+            <h1><a href="home.html" id="Home">Suite Store</a></h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href=products.html>Products</a></li>
+                <li><a href=categories.html>Categories</a></li>
+                <li><a href=history.html>History</a></li>
+            </ul>
+        </div>
+        <div class="HistoryTable">
+            <table id= tableHistory>
+			<thead>
+                <tr>
+                    <th id="cod">Purchase Number</th>
+                    <th id="tot">Tax</th>
+                    <th id="tax">Total</th>
+                    <th id="tax">Pruschase Info</th>
+                </tr>
+			</thead>
+			<tbody>
+			</tbody>
+        	</table>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <header class="modal-header">
+                        <h2>Purchase Info</h2>
+                        <span class="modal-close" id="modalClose">&#10006;</span>
+                    </header>
+                    <body class="modal-body">
+                        <table class="modal-Table">
+                            <thead>
+                                <th id="productBought">Product</th>
+                                <th id="unitPrice">Unit Price</th>
+                                <th id="amount">Amount</th>
+                                <th id="taxes">Taxes</th>
+                                <th id="total">Total</th>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </body>
+                </div>
+            </div>
+		</div>
+    </body>
+</html>

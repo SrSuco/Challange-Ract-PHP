@@ -1,0 +1,81 @@
+/*Categories Styling*/
+.catInput,
+.addCatButton {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 2%;
+  justify-content: center;
+}
+.catInput input {
+  width: 90%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  border-color: rgb(216, 216, 216);
+}
+.catInput :focus {
+  width: 90%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(216, 216, 216);
+}
+
+.addCatButton button {
+  width: 92.4%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(172, 139, 226);
+  border: none;
+}
+.addCatButton button:hover {
+  background-color: rgb(153, 110, 223);
+}
+.addCatButton button:active {
+  background-color: rgb(140, 90, 221);
+}
+.catTable table,
+th,
+td {
+  border-left: none;
+  border-top: 1px solid rgb(218, 218, 218);
+  border-collapse: collapse;
+  text-align: start;
+}
+.catTable th,
+td {
+  height: 10%;
+  font-family: sans-serif;
+}
+.catTable td {
+  color: rgb(122, 122, 122);
+}
+.catTable #codTable {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.catTable #catTable {
+  width: 70%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.catTable #taxTable {
+  width: 15%;
+  border-right: 1px solid rgb(218, 218, 218);
+}
+.catTable button {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(228, 0, 0);
+  border-radius: 5px;
+}
+.catTable button:hover {
+  color: rgb(255, 0, 0);
+}
+.catTable button:active {
+  color: rgb(177, 0, 0);
+}

@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin-top: 1em;
+    gap: 2em;
+}
+  
+.leftpage {
+    flex: 1;
+    height: 100vh;
+    vertical-align: top;
+    white-space: normal;
+    margin-left: 1em;
+}
+
+.rightpage {
+    display: flex;
+    flex: 1;
+    margin-top: 2.4rem;
+    height: 100vh;
+    vertical-align: top;
+    white-space: normal;
+    width: 100%;
+    margin-right: 1em;
+}
+
+.inputBasic,
+.addCatButton,
+.amtePrc,
+.SelectCategory,
+.AddButton {
+  display: flex;
+  margin-top: 2%;
+  justify-content: space-between;
+}
+.inputBasic input {
+  width: 100%;
+  padding: 1% 1%;
+  border-radius: 5px;
+}
+
+.amtePrc input {
+  width: 45%;
+  padding: 1% 1%;
+  border-radius: 5px;
+}
+.amtePrc :focus {
+  padding: 1% 1%;
+  border-radius: 0.2em;
+}
+
+.SelectCategory select {
+  width: 100%;
+  padding: 1% 1%;
+  border-radius: 5px;
+}
+
+.SelectCategory :focus {
+  width: 100%;
+  padding: 1% 1%;
+  border-radius: 5px;
+}
+
+.AddButtonProd {
+  display: flex;
+  justify-content: center;
+}
+.AddButtonProd button {
+  width: 100%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #8080da;
+  border: none;
+}
+.AddButtonProd button:hover {
+  background-color: #5151a3;
+}
+.AddButtonProd button:active {
+  background-color: #4a4aaf;
+}
+
+.TableProducts table{
+    table-layout: fixed;
+}
+.TableProducts table,
+th,
+td {
+    border-top: 1px solid rgb(117, 117, 117);
+    border-left: 1px solid rgb(117, 117, 117);
+    border-right: 1px solid  rgb(117, 117, 117);
+    border-collapse: collapse;
+    text-align: center;
+    overflow: auto;
+}
+.TableProducts th {
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+.TableProducts td {
+  border-top: 1px solid  rgb(117, 117, 117);
+}
+
+.TableProducts th:nth-child(1), td:nth-child(1){
+    max-width: 6rem;
+    min-width: 3rem;
+    width: 5rem;
+}
+.TableProducts th:nth-child(2), td:nth-child(2) {
+  max-width: 35rem;
+  min-width: 10rem;
+  width: 30rem;
+}
+.TableProducts th:nth-child(3), td:nth-child(3) {
+  max-width: 5rem;
+  min-width: 5rem;
+  width: 5rem;
+}
+
+.TableProducts th:nth-child(4), td:nth-child(4) {
+  max-width: 12rem;
+  min-width: 4rem;
+  width: 8rem;
+}
+
+.TableProducts th:nth-child(5), td:nth-child(5) {
+    max-width: 12rem;
+    min-width: 4rem;
+    width: 8rem;
+}
+
+.TableProducts th:nth-child(6), td:nth-child(6) {
+    max-width: 4rem;
+    min-width: 4rem;
+    width: 4rem;
+    text-align: center;
+}
+
+
+.TableProducts button {
+    border: none;
+    background: none;
+}
+
+.TableProducts input {
+  border: none;
+  text-align: center;
+}
+
+.TableProducts button:hover {
+  color: rgb(255, 0, 0);
+}
+.TableProducts button:active {
+  color: rgb(177, 0, 0);
+}

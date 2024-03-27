@@ -1,0 +1,161 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: #E6E6FA;
+    --primary-color: #242424;
+    background-color: #242424;
+    --toggle-bg: #332a64;
+    --toggle-fg: #5e51a7;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  :root input{
+    background-color: #535353;
+    border: none;
+    color: #E6E6FA;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  :root input:focus{
+    background-color: #c7c7c7;
+    color: #4d4d53;
+    border: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  :root select{
+    background-color: #535353;
+    border: none;
+    color: #E6E6FA;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  :root select:focus{
+    background-color: #c7c7c7;
+    color: #4d4d53;
+    border: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  :root option{
+    background-color: #535353;
+    border: none;
+    color: #E6E6FA;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  :root option:focus{
+    background-color: #c7c7c7;
+    color: #4d4d53;
+    border: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  :root a{
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #E6E6FA;
+  }
+
+  :root a:hover{
+    transform: scale(1.08);
+    color: #ffffff;
+  }
+
+  [data-theme="light"] {
+    color-scheme: #E6E6FA;
+    --primary-color: #E6E6FA;
+    color: #242424;
+    --toggle-bg: #b5b977;
+    --toggle-fg: #eff77f;
+    background-color: #E6E6FA;
+  }
+
+  [data-theme="light"] input {
+    background-color: #d4d4d8;
+    border: none;
+    color: #535353;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  [data-theme="light"] input:focus {
+    background-color: #d4d4d8;
+    border: 1px solid black;
+    color: #535353;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  [data-theme="light"] select {
+    background-color: #d4d4d8;
+    border: none;
+    color: #535353;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  [data-theme="light"] select:focus {
+    background-color: #d4d4d8;
+    border: 1px solid black;
+    color: #535353;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  [data-theme="light"] option {
+    background-color: #d4d4d8;
+    border: none;
+    color: #535353;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  [data-theme="light"] option:focus {
+    background-color: #d4d4d8;
+    border: 1px solid black;
+    color: #535353;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  [data-theme="light"] a {
+    color: #242424;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  [data-theme="light"] a:hover {
+    transform: scale(1.08);
+    color: #000000;
+  }
+
+
+  [data-theme="light"] button {
+    color: #242424;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #E6E6FA;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+  

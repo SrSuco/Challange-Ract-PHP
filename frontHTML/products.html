@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="styleProducts.css">
+		<script src="scripts/products.js" defer></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Products</title>
+	</head>
+	<body class="body">
+		<div class="Header">
+			<h1><a href="home.html" id="Home">Suite Store</a></h1>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href=products.html>Products</a></li>
+				<li><a href=categories.html>Categories</a></li>
+				<li><a href=history.html>History</a></li>
+			</ul>
+		</div>
+
+		<div class="bodyContainer">
+
+			<div class="leftpage1">
+				<form id="registerProd">
+						<div class="inputBasic">
+							<input type="text" id="ProductName" name="ProductName"  class="formField" placeholder="Product Name:" required>
+						</div>
+						<br>
+						<div class="amtePrc">
+							<input type="number" id="Amount" name="Amount" class="formField" placeholder="Amount:" required>
+							<input type="number" id="UnitPrice" name="UnitPrice" class="formField" placeholder="Unit Price:" required>
+						</div>
+					<br>
+					<div class="SelectCategory">
+						<select id="categorySelect" name="categorySelect" class="formField" required>
+							<option value="" disabled selected>Catergories:</option>
+						</select>
+					</div>
+					<br>
+					<div class="AddButtonProd">
+						<button type="submit" id="addProd">Add Product</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="rightpage1">
+				<div class="TableProducts">
+					<table id="tableProduct">
+						<thead>
+							<tr>
+								<th id="codProd">Code</th>
+								<th id="prdProd">Product</th>
+								<th id="amtProd">Amount</th>
+								<th id="untProd">Unit Price</th>
+								<th id="catProd">Category</th>
+								<th id="delProd">Action</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
